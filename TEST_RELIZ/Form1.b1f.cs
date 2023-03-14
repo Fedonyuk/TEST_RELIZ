@@ -17,6 +17,10 @@ namespace TEST_RELIZ
         /// </summary>
         public override void OnInitializeComponent()
         {
+            this.Button0 = ((SAPbouiCOM.Button)(this.GetItem("Item_0").Specific));
+            this.Button0.ClickBefore += new SAPbouiCOM._IButtonEvents_ClickBeforeEventHandler(this.Button0_ClickBefore);
+            this.OnCustomInitialize();
+
         }
 
         /// <summary>
@@ -24,6 +28,20 @@ namespace TEST_RELIZ
         /// </summary>
         public override void OnInitializeFormEvents()
         {
+        }
+
+        private SAPbouiCOM.Button Button0;
+
+        private void OnCustomInitialize()
+        {
+
+        }
+
+        private void Button0_ClickBefore(object sboObject, SAPbouiCOM.SBOItemEventArg pVal, out bool BubbleEvent)
+        {
+            BubbleEvent = true;
+            throw new System.NotImplementedException();
+
         }
     }
 }
