@@ -34,15 +34,13 @@ namespace TEST_RELIZ
 
         private void OnCustomInitialize()
         {
-
+            //dffd
         }
 
         private void Button0_ClickBefore(object sboObject, SAPbouiCOM.SBOItemEventArg pVal, out bool BubbleEvent)
         {
             BubbleEvent = true;
             throw new System.NotImplementedException();
-
-            //test_1
 
         }
     }
