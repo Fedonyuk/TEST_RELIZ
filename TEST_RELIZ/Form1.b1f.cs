@@ -52,6 +52,8 @@ namespace TEST_RELIZ
 
             //зміна релізу
 
+            //Фікс
+
         }
     }
 }
