@@ -35,6 +35,7 @@ namespace TEST_RELIZ
         private void OnCustomInitialize()
         {
             //dffd test new prod fffffffffffffffffff
+            //////sdfddfdfdfdfdf
         }
 
         private void Button0_ClickBefore(object sboObject, SAPbouiCOM.SBOItemEventArg pVal, out bool BubbleEvent)
